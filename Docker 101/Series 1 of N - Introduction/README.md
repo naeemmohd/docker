@@ -49,3 +49,6 @@ docker --help
 
 ##### Special Note to setup t GitHub user name and email to local git
 > git config --local user.email "naeem.mohd@hotmail.com" && git config --local user.name "Mohd Naeem"
+
+##### Remove all images and all containers
+docker rmi $(docker images -q) && docker rm $(docker ps -a -q)
