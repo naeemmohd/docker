@@ -43,13 +43,13 @@ docker --help
 > docker container ls
 > docker ps -a
 
-##### Special Note to setup t GitHub user name and email to local git
-git config --local user.email "naeem.mohd@hotmail.com"
-git config --local user.name "Mohd Naeem"
-
 ##### To list containers ids(all  running as well as exited - use option -q)
 > docker container ls -q
 > docker ps -a -q
 
 ##### To filter containers – docker container ls -a filter <filtercondition>
 > docker container ls -a filter “excited=0”
+
+##### Special Note to setup t GitHub user name and email to local git
+git config --local user.email "naeem.mohd@hotmail.com"
+git config --local user.name "Mohd Naeem"
