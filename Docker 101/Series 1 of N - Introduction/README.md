@@ -33,19 +33,19 @@ docker --help
 ##### To check the docker images
 > docker images
 
-##### to run a docker image(in backgrounf mode)
+##### To run a docker image(in backgrounf mode)
 > docker run -d centos bash
 
-##### to run a docker image(in backgrounf mode)
+##### To run a docker image(in backgrounf mode)
 > docker run -it centos bash
 
-##### list containers( all  running as well as exited)
+##### To list containers(all  running as well as exited)
 > docker container ls
 > docker ps -a
 
-##### list containers ids( all  running as well as exited - use option -q)
+##### To list containers ids(all  running as well as exited - use option -q)
 > docker container ls -q
 > docker ps -a -q
 
-##### filter containers – docker container ls -a filter <filtercondition>
+##### To filter containers – docker container ls -a filter <filtercondition>
 > docker container ls -a filter “excited=0”
