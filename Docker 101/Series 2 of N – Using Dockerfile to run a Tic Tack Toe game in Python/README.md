@@ -48,6 +48,10 @@
   ```
   docker images
   ```
+- Now login to Docker Hub ( On DockerHUb - hub.docker.com - you need to create an account and a repository, mnaeemsiddiqui is user and naeemsrepo is repository)
+  ```
+  docker tag naeemstictactoelatest mnaeemsiddiqui/naeemsrepo:naeemstictactoelatest
+  ```
 - Now tag it for pushing it to Docker Hub
   ```
   docker tag naeemstictactoelatest mnaeemsiddiqui/naeemsrepo:naeemstictactoelatest
