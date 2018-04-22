@@ -38,7 +38,7 @@
    ADD . /app
 
    # Run TicTacToe.py when the container launches
-   CMD ["python", "TicTacToe.py"]
+   CMD ["python", "TictacToe.py"]
    ```
 - Now build the app(naeemstictactoelatest  is the image name you want for this app)- 
   ```
