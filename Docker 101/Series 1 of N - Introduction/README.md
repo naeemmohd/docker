@@ -2,12 +2,10 @@
 > yum install -y yum-utils device-mapper-persistent-data lvm2
 
 ##### Step 2 : Setting up Docker yum repository and install docker
-> yum-config-manager –add-repo https://download.docker.com/linux/centos/docker-ce.repo
-> yum -y install docker-ce
+> yum-config-manager –add-repo https://download.docker.com/linux/centos/docker-ce.repo && yum -y install docker-ce
 
 ##### Step 3 : Start Docker
-> systemctl start docker
-> systemctl enable docker
+> systemctl start docker && systemctl enable docker
 
 ##### Step 4 : Run Hello world to test docker installation
 > docker run hello-world
@@ -44,12 +42,10 @@ docker --help
 > docker ps -a
 
 ##### To list containers ids(all  running as well as exited - use option -q)
-> docker container ls -q
-> docker ps -a -q
+> docker container ls -q && docker ps -a -q
 
 ##### To filter containers – docker container ls -a filter <filtercondition>
 > docker container ls -a filter “excited=0”
 
 ##### Special Note to setup t GitHub user name and email to local git
-> git config --local user.email "naeem.mohd@hotmail.com"
-> git config --local user.name "Mohd Naeem"
+> git config --local user.email "naeem.mohd@hotmail.com" && git config --local user.name "Mohd Naeem"
