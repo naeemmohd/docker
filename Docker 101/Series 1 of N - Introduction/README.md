@@ -51,5 +51,5 @@ docker --help
 > docker container ls -a filter “excited=0”
 
 ##### Special Note to setup t GitHub user name and email to local git
-git config --local user.email "naeem.mohd@hotmail.com"
-git config --local user.name "Mohd Naeem"
+> git config --local user.email "naeem.mohd@hotmail.com"
+> git config --local user.name "Mohd Naeem"
