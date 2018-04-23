@@ -17,7 +17,7 @@
   ```
 - Now setup and define images and configuration in the docker-compose.yml- 
   ```
-  nano dockercompose.yml
+  nano docker-compose.yml
   ```
 - Copy following content into the file and save:
   ```
