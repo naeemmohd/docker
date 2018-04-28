@@ -31,7 +31,7 @@
      docker logs <containername>
      ```
 * Now create an image and container using "docker-compose":
-   * Create a files docker-compose.yml and add the following content and save:
+   * Create a file docker-compose.yml and add the following content and save:
      ```
      version: '3.1'
 
@@ -48,3 +48,4 @@
       port:
        - 8080:8080
      ```
+   * Now run - docker-compose-up  ( in intercative mode) or else  docker-compose-up -d ( in background mode)
