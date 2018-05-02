@@ -8,3 +8,4 @@ All docker related materials are under this hood.
 - [Series 4 of N – Using docker-setting up a redis container](https://github.com/naeemmohd/docker/tree/master/Docker%20101/Series%204%20of%20N%20%E2%80%93%20Using%20docker-setting%20up%20a%20redis%20container)
 - [Series 5 of N – Using docker-setting up a MySQLMariaDB container](https://github.com/naeemmohd/docker/tree/master/Docker%20101/Series%205%20of%20N%20%E2%80%93%20Using%20docker-setting%20up%20a%20MySQLMariaDB%20container)
 - [Series 6 of N – Using Dockerfile to a static website using nginx server](https://github.com/naeemmohd/docker/tree/master/Docker%20101/Series%206%20of%20N%20%E2%80%93%20Using%20Dockerfile%20to%20a%20static%20website%20using%20nginx%20server)
+- [Series 7 of N – Setting up a NodeJs Docker Application](https://github.com/naeemmohd/docker/tree/master/Docker%20101/Series%207%20of%20N%20%E2%80%93%20Setting%20up%20a%20NodeJs%20Docker%20Application)
