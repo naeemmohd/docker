@@ -65,4 +65,4 @@
 	docker images
 	docker ps -a
 	```
--- ![The screenshot](https://github.com/naeemmohd/aws/blob/master/AWS%20101/Series%201%20of%20N%20-%20EC2/images/checkValidAMIID.PNG)
+-- ![The screenshot](https://github.com/naeemmohd/docker/blob/master/Docker%20101/Series%209%20of%20N%20-%20How%20to%20setup%20Apache%20and%20NGinx%20server%20using%20docker/images/screenshot.PNG)
