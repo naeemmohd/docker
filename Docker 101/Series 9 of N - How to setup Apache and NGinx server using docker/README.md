@@ -7,6 +7,35 @@
 - Test the containers
 
 ### Solution:
+- If you have not installed docker on your system then first do that
+    ```
+        #Use the below baseURL for your specific distro in the docker.repo file below
+	CentOS6/RHEL6: https://yum.dockerproject.org/repo/main/centos/6
+	CentOS7/RHEL7: https://yum.dockerproject.org/repo/main/centos/7
+	Fedora20: https://yum.dockerproject.org/repo/main/fedora/20
+	Fedora21: https://yum.dockerproject.org/repo/main/fedora/21
+	Fedora22: https://yum.dockerproject.org/repo/main/fedora/22
+
+
+	cat >/etc/yum.repos.d/docker.repo <<-EOF
+	[dockerrepo]
+	name=Docker Repository
+	baseurl=https://yum.dockerproject.org/repo/main/centos/7
+	enabled=1
+	gpgcheck=1
+	gpgkey=https://yum.dockerproject.org/gpg
+	EOF
+
+
+	yum -y update && yum -y install docker-engine
+
+	sudo usermod -aG docker $USER
+	cat /etc/group | grep docker
+
+	sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+	sudo chmod g+rwx "/home/$USER/.docker" -R
+    ```
+
 - Create source folders and html files for Apache and NGinx on the host
     ```
 	rootPath=$(pwd)
